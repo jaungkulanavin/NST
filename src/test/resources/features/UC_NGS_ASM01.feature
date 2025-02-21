@@ -9,10 +9,10 @@ Feature: User Registration and Login
     And Navigate to the registration page
     Then Fill in the registration form with the following details:
       |        User_ID|Password|First_name|    Last_name|                            Email|     Phone|Address_1| Address_2|   City|     State|     Zip| Country|Language|Category|MyList|Banner|
-      |j_aungkulanavi5|  asdfgh|   Jirapa3|Aungkulanavin|jirapat.aungkulanavin@koerber.co4|0959519512|    128/2|Building B|Bangkok|TalingChan|10170   |Thailand| english|    CATS|  true| false|
+      |j_aungkulanavi5|  asxxxx|   Jirxxxx|Aungxxxxxxxxx|jirapat.aungkulanavin@koerber.co4|1959859512|    128/2|Building B|Bangkok|TalingChan|101xx   |Thailand| english|    CATS|  true| false|
     And Submit the registration form
     When Login with new account
       |        User_ID|Password|
-      |j_aungkulanavi5|  asdfgh|
+      |j_aungkulanavi5|  asxxxx|
     Then Home page after login
 

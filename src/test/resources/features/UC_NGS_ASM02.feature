@@ -8,7 +8,7 @@ Feature: Product Search
     Given Open the "JPetStore Demo" website
     When Successful login
       |        User_ID|Password|
-      |j_aungkulanavin|  asdfgh|
+      |j_aungkulanavi5|  asxxxx|
     Then Home page after login
 
   @TC_NGS_ASM02_02
